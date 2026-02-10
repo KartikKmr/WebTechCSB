@@ -1,0 +1,11 @@
+//write a arrow funtion is Even that takes a number and returns "Even"and"odd
+const isEven=(a)=>{
+    if(a%2==0){
+        return "even";
+    }else{
+        return"odd";
+    }
+  //return a%2 == 0?"Even" : "Odd";
+}
+console.log(isEven(4));
+
